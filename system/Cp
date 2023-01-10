@@ -1,0 +1,10 @@
+type 		pressure;
+libs		(fieldFunctionObjects);
+writeControl	writeTime;
+mode		staticCoeff;
+rho		rhoInf;
+rhoInf		0.7;
+U		UInf;
+UInf		(0.9641 0 0);
+pInf		0.6072;
+patches		(my-wall);
